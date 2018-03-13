@@ -1,0 +1,777 @@
+body{
+	font-family: 'Open Sans Medium';
+}
+
+.button {
+	display: block;
+	width: 398px;
+	height: 99px;
+	background: linear-gradient(to bottom, #FF007F 0%, #70003F 100%);
+	color: white;
+	font-size: 24px;
+	border: none;
+	padding: 0px;
+}
+
+.header {
+	padding: 252px 0;
+	background-image: url(../img/header-bg.png);
+	background-position: center;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.header .container {
+	max-width: 1320px !important;
+}
+
+.header .left-block {
+	border-right: 3px solid white;
+	padding-bottom: 106px;
+}
+
+.header .logo {
+	max-width: 455px;
+	margin-bottom: 56px;
+}
+
+.header .img-fluid {
+	width: 100%;
+	height: auto;
+}
+
+.header p {
+	font-weight: 100;
+}
+
+.header .target {
+	font-size: 35px;
+	line-height: 66px;
+	letter-spacing: 3px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+
+.header .enroll-button {
+	border-radius: 50px;
+	margin: 0 auto;
+}
+
+.header .right-block {
+	margin-top: 110px;
+}
+
+.header .title1, .title2 {
+	font-size: 30px;
+	line-height: 37px;
+	margin-bottom: 70px
+}
+
+.header span {
+	color: #ff007f;
+}
+
+.quality {
+	padding-top: 122px;
+	border-bottom: 1px solid #70003f;
+}
+
+.quality .container {
+	max-width: 1640px !important;
+}
+
+.quality .brush {
+	margin: 1px auto;
+	max-width: 674px;
+}
+
+.quality .title {
+	line-height: 101px;
+	font-size: 60px;
+	font-weight: 400;
+	color: #70003f;
+	margin-bottom: 68px;
+}
+
+.quality .subtitle {
+	font-size: 30px;
+	color: #70003f;
+	margin-bottom: 60px;
+}
+
+.barbers {
+	padding-bottom: 180px;
+    border-bottom: 1px solid #70003f;
+}
+
+.barbers .container {
+	max-width: 1648px !important;
+}
+
+.barbers-title {
+	line-height: 101px;
+	font-size: 60px;
+	font-weight: 400;
+	color: #70003f;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.barbers .best-barbers {
+	display: flex;
+    justify-content: space-between;
+}
+
+.barbers .second-row {
+	margin-top: 70px;
+}
+
+.barbers .block {
+	max-width: 398px;
+}
+
+.barbers .name {
+	margin-top: 40px;
+	font-size: 36px;
+	line-height: 60px;
+	color: #70003f;
+	text-align: center;
+}
+
+.barbers .position {
+	font-size: 24px;
+	line-height: 33px;
+	color: #8e8e8e;
+	text-align: center
+}
+
+.barbers p {
+	margin: 0px;
+}
+
+.bonuses {
+	padding: 180px 0;
+}
+
+.bonuses .container {
+	max-width: 1540px !important;
+}
+
+.bonuses .title {
+	line-height: 101px;
+	font-size: 60px;
+	font-weight: 400;
+	color: #70003f;
+	margin-bottom: 60px;
+}
+
+.bonuses .subtitle {
+	font-size: 30px;
+	color: #7b4e68;
+	margin-bottom: 57px;
+	letter-spacing: 1.5px;
+}
+
+.bonuses span {
+	color: #de05ee;
+}
+
+.bonuses .discount {
+	max-width: 542px;
+	padding: 0px;
+}
+
+.gucci {
+	position: relative;
+	padding-top: 121px;
+	padding-bottom:200px;
+	padding-left: 0px;
+	padding-right: 0px;
+	background-image: url(../img/gucci_bg.png);
+	background-position: center;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.gucci .container {
+	max-width: 1500px !important;
+}
+
+.gucci .glasses {
+	max-width: 516px;
+}
+
+.gucci .face-block {
+	margin-left: 90px;
+}
+
+.gucci h2 {
+	font-size: 60px;
+	line-height: 102px;
+	color: white;
+	font-weight: 400;
+	text-align: center;
+}
+
+.gucci span {
+	color: #de05ee;
+}
+
+.gucci .face-position {
+	margin-top: 30px;
+	display: flex;
+    justify-content: center;
+	position: relative;
+}
+
+.gucci .face-border1 {
+	position: absolute;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 14%;
+}
+
+.gucci .face-border2 {
+	position: relative;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 14%;
+}
+
+.gucci .face {
+	max-width: 487px;
+}
+
+.present {
+	padding-top: 194px;
+}
+
+.present .container {
+	max-width: 1600px !important;
+}
+
+.present .title {
+	line-height: 101px;
+	font-size: 60px;
+	font-weight: 400;
+	color: #70003f;
+	margin-bottom: 25px;
+}
+
+.present .subtitle {
+	font-size: 30px;
+	color: #70003f;
+	margin-bottom: 45px;
+}
+
+.present p {
+	margin: 0px;
+}
+
+.present .enroll-button {
+	border-radius: 50px;
+}
+
+.present .gift {
+	margin-top: 72px;
+	max-width: 787px;
+}
+
+.footer {
+	background: black;
+	padding: 115px 0;
+}
+
+.footer .container {
+	max-width: 1380px;
+}
+
+.footer .footer-img {
+	display: flex !important;
+	justify-content: center;
+}
+
+.footer .links {
+	margin-top: 60px;
+}
+
+.footer .link {
+	text-align: center;
+	display: block;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.footer .logo {
+	display: flex;
+    justify-content: center;
+}
+
+.footer .copyright {
+	margin-top: 43px;
+	text-align: center;
+}
+
+.footer .site {
+	font-size: 24px;
+	color: #ff007f;
+}
+
+.footer .text {
+	color: white;
+	font-size: 24px;
+	margin-top: 10px;
+}
+
+.modal-dialog {
+	transform: translate(0, -50%) !important;
+    top: 50% !important;
+    margin: 0 auto !important;
+}
+
+.modal-content {
+	border-radius: 30px !important;
+}
+
+.modal-body {
+	
+}
+
+.modal-top {
+	display: flex;
+	justify-content: space-around;
+}
+
+.modal-logo {
+	max-width: 278px !important;
+	box-sizing: content-box;
+}
+
+.modal-close-button {
+	width: 42px;
+	height: 38px;
+	padding: 0px;
+	margin-top: 19px;
+	border: none;
+	background: #ffffff url(../img/modal-close.png) center no-repeat;
+}
+
+.modal form {
+	padding-left: 75px;
+	padding-right: 75px;
+}
+
+.modal .modal-title {
+	font-size: 14px;
+	color: #70003f;
+	margin-left: 54px;
+    margin-bottom: 5px;
+}
+
+.modal input {
+	display: block;
+	margin: 0 auto;
+	font-size: 24px;
+	padding: 20px 0 20px 54px;
+	border: 1px solid #95989a;
+	border-radius: 28px;
+	box-sizing: content-box;
+	width: 92%;
+	margin-bottom: 10px;
+}
+
+.modal .name {
+}
+
+.modal .phone {
+}
+
+.tcalInput {
+    background: url(../img/modal-calendar.png) 95% 50% no-repeat;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.modal .radio {
+	margin: 9px 1px 5px 1px;
+}
+
+.modal label {
+	color: #70003F;
+	font-size: 16px;
+}
+
+.modal .radio input {
+	display: inline-block;
+    width: 20%;
+}
+
+.modal-content select {
+	background: #fff url(../img/modal-combo.png) 95% 50% no-repeat;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	display: block;
+    width: 100%;
+    border: none;
+    border: 1px solid #C5C5C5;
+    padding: 15px 46px;
+    border-radius: 20px;
+}
+
+.modal .issue-button {
+	border-radius: 28px;
+	max-width: 413px;
+	height: 72px;
+	margin: 0 auto;
+	margin-top: 44px;
+	margin-bottom: 44px;
+}
+
+@media screen and (max-width:1500px) {
+		
+	.header .container { max-width: 1200px !important; }
+		
+	.quality .container { max-width: 1330px !important; }
+		
+	.barbers .container { max-width: 1140px !important; }
+		
+	.bonuses .container { max-width: 1140px !important; }
+		
+	.gucci .container { max-width: 1200px !important; }
+		
+	.present .container { max-width: 1140px !important; }
+		
+	.footer .container { max-width: 1200px !important; }
+		
+	.button {
+		width: 350px;
+		height: 80px; }
+	
+	.header { padding: 90px 0;}
+		
+	.header .left-block { border: none; }
+		
+	.quality { padding-top: 100px; }
+		
+	.quality .brush { max-width: 550px; }
+		
+	.quality .title {
+		font-size: 40px;
+		margin-bottom: 40px;}
+		
+	.quality .subtitle {
+		font-size: 25px;
+		margin-bottom: 40px; }
+		
+	.barbers { padding-bottom: 100px; }
+		
+	.barbers-title {
+		font-size: 40px;
+		height: 200px;}
+		
+	.barbers .block { max-width: 300px; }
+		
+	.barbers .name {
+		margin-top: 30px;
+		font-size: 30px; }
+		
+	.bonuses { padding: 100px 0;}
+	
+	.bonuses .title { 
+		font-size: 40px;
+		margin-bottom: 40px; }
+
+	.bonuses .subtitle { font-size: 25px;}
+		
+	.bonuses .discount {
+		max-width: 450px;
+		padding: 0px; }
+		
+	.gucci .glasses { max-width: 400px; }
+		
+	.gucci .face { max-width: 350px; }
+		
+	.gucci h2 { font-size: 40px; }
+		
+	.present { padding-top: 100px; }
+		
+	.present .title { font-size: 40px; }
+		
+	.present .subtitle { font-size: 25px; }
+		
+	.footer { padding: 80px 0; }
+	
+	.modal-body {
+		max-height: 550px;
+		overflow-y: auto; }
+		
+}
+
+@media screen and (max-width:1200px) { 
+
+	.button {
+		width: 270px;
+		height: 80px;
+		font-size: 20px; }
+
+	.header .container { max-width: 980px !important; }
+		
+	.quality .container { max-width: 980px !important; }
+		
+	.barbers .container { max-width: 980px !important; }
+		
+	.bonuses .container { max-width: 980px !important; }
+		
+	.gucci .container { max-width: 980px !important; }
+		
+	.present .container { max-width: 980px !important; }
+		
+	.footer .container { max-width: 980px !important; }
+	
+	.header { padding: 40px 0;}
+	
+	.header .logo {
+		max-width: 350px;
+		margin-bottom: 40px; }
+		
+	.header .target { font-size: 30px; }
+		
+	.header .title1, .title2 { font-size: 22px; }
+	
+	.quality { padding-top: 50px;}
+	
+	.quality .brush { max-width: 400px;}
+	
+	.quality .title { 
+		font-size: 35px; 
+		margin-bottom: 20px;
+		line-height: 60px; }
+	
+	.quality .subtitle { 
+	    font-size: 22px;
+		margin-bottom: 10px; }
+		
+	.bonuses { padding: 50px 0; }
+	
+	.gucci { padding-bottom: 150px;}
+	
+	.gucci .glasses { max-width: 300px; }
+	
+	.gucci h2 { 
+		font-size: 35px;
+		line-height: 60px; }
+		
+	.gucci .face { max-width: 300px; }
+	
+	.present { padding-top: 50px; }
+	
+	.present .title {
+		line-height: 60px;
+		font-size: 35px; }
+		
+	.modal-body {
+		max-height: 820px;}	
+		
+	
+		
+}
+
+@media screen and (max-width:992px) {
+	.header .container { max-width: 760px !important; }
+		
+	.quality .container { max-width: 760px !important; }
+		
+	.barbers .container { max-width: 760px !important; }
+		
+	.bonuses .container { max-width: 760px !important; }
+		
+	.gucci .container { max-width: 760px !important; }
+		
+	.present .container { max-width: 760px !important; }
+		
+	.footer .container { max-width: 760px !important; }
+	
+	.quality .title {
+		font-size: 30px;
+		margin-bottom: 10px;
+		line-height: 40px; }
+	
+	.quality .subtitle { 
+		margin-bottom: 0px; }
+	
+	.barbers .block { max-width: 230px; }
+	
+	.barbers-title { 
+		height: 100px;
+		font-size: 30px; }
+	
+	.barbers .name {
+		margin-top: 15px;
+		font-size: 22px; }
+		
+	.barbers .position {
+		font-size: 20px;
+		line-height: 25px; }
+		
+	.bonuses .title {
+		margin-bottom: 20px; 
+		font-size: 35px; }
+		
+	.bonuses .subtitle {
+		margin-bottom: 30px; 
+		font-size: 22px; }
+		
+	.gucci {
+		padding-bottom: 270px;
+		padding-top: 50px; }
+		
+	.gucci h2 {
+		font-size: 30px;
+		line-height: 50px;}
+		
+	.gucci .face-block {
+		margin: 0 auto; }
+		
+	.present .title {
+		line-height: 50px;
+		font-size: 30px; }
+		
+	.present .subtitle {
+		font-size: 22px;
+		margin-bottom: 20px; }
+		
+		
+	.modal form {
+		padding-left: 20px;
+		padding-right: 20px; }
+		
+	.modal input {
+		font-size: 18px;
+		padding: 10px 0 10px 30px;
+		width: 86%; }
+		
+}
+
+@media screen and (max-width:767px) {
+	
+	.header .container { max-width: 560px !important; }
+		
+	.quality .container { max-width: 560px !important; }
+		
+	.barbers .container { max-width: 560px !important; }
+		
+	.bonuses .container { max-width: 560px !important; }
+		
+	.gucci .container { max-width: 560px !important; }
+		
+	.present .container { max-width: 560px !important; }
+		
+	.footer .container { max-width: 560px !important; }
+	
+	.quality {  padding: 50px 0; }
+	
+	.quality .title { text-align: center; }
+	
+	.bonuses { padding: 20px 0; }
+	
+	.bonuses .title { text-align: center; }
+	
+	.bonuses .subtitle { text-align: center; }
+	
+	.bonuses .discount {
+		display: block;
+		margin: 0 auto; }
+		
+	.present .title { text-align: center; }
+
+	.present .subtitle { text-align: center; }	
+	
+	.present .enroll-button {
+		display: block;
+		margin: 0 auto; }
+		
+	.present .gift {
+		max-width: 400px;
+		margin: 0 auto; }
+		
+	.footer .footer-img { display: none !important }
+		
+	.footer .links {
+		margin-top: 0px; }
+		
+	.footer .text {
+		font-size: 20px; }
+
+}
+
+@media screen and (max-width:576px) {
+	.header .container { max-width: 310px !important; }
+		
+	.quality .container { max-width: 310px !important; }
+		
+	.barbers .container { max-width: 310px !important; }
+		
+	.bonuses .container { max-width: 310px !important; }
+		
+	.gucci .container { max-width: 310px !important; }
+		
+	.present .container { max-width: 310px !important; }
+		
+	.footer .container { max-width: 310px !important; }
+	
+	.header .target {
+		font-size: 26px;
+		line-height: 40px; }
+	
+	.button {
+		width: 250px;
+		height: 60px;
+		font-size: 18px;}
+		
+	.quality { padding: 30px 0; }
+	
+	.quality .title {
+		font-size: 24px; }
+		
+	.quality .subtitle {
+		font-size: 16px;
+		text-align: center; }
+	
+	.barbers-title { font-size: 26px; }
+
+	.barbers .best-barbers { justify-content: center; }
+	
+	.barbers .block { margin-bottom: 20px; }
+	
+	.barbers .name { margin-top: 0px; }
+	
+	.barbers .second-row { margin-top: 0px; }
+	
+	.barbers .position {
+		font-size: 16px;
+		line-height: 20px; }
+
+	.bonuses .title {
+		font-size: 30px;
+		line-height: 50px; }
+		
+	.bonuses .subtitle { font-size: 18px; }
+	
+	.modal-body {
+		max-height: 450px;}
+	
+	.modal-logo {
+		width: 60% !important;
+	}
+	
+	.modal-close-button {
+		width: 30px !important;
+		margin: 15px !important;
+	}
+
+}
+
